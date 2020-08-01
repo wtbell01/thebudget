@@ -10,7 +10,7 @@
   <!--Header-->
   <header>
     <div class="header-container">
-      <h1 class="header-container-title"><a href="#" class="header-container-link">the balance</a></h1>
+      <h1 class="header-container-title"><a href="#" class="header-container-link">the budget</a></h1>
     </div>
   </header>
 
@@ -36,7 +36,6 @@
          <a href="#blog-container">50/30/20 Article</a>
          <a href="#calculator">50/30/20 Calculator</a>
        </div>
-
      </div>
     </div>
 
@@ -101,18 +100,44 @@
           <!--Income input on the calculator-->
           <input type="number" id="income-input" placeholder="3000">
         </div>
+
+        <!--Calculator output section-->
+        <div class="calculator-output-div">
+          <!--Label for outputs-->
+          <h3 class="calculator-output-header">How much you have for:</h3>
+    
+          <!--Box for necessities label and output-->
+          <div class="output-box">
+            <label class="output-box-label" for="necessities">Necessities</label>
+            <p id="necessities-output" class="calculator-output">$0</p>
+          </div>
+
+          <!--Box for wants label and output-->
+          <div class="output-box">
+            <label class="output-box-label" for="wants">Wants</label>
+            <p id="wants-output" class="calculator-output">$0</p>
+          </div>
+
+          <!--Box for label and output-->
+          <div class="output-box">
+            <label class="output-box-label" for="savings">Savings</label>
+            <p id="savings-output" class="calculator-output">$0</p>
+          </div>
+
+          <!--Buttons-->
+          <div class="calculator-buttons">
+            <button id="submit-button" type="submit">See your Budget</button>
+            <button id="reset-button">Reset Calculator</button>
+          </div>
+        </div>
       </form>
-
     </section>
-
-   
-
-
-
-
-
-
   </div>
+
+  <!--Footer-->
+  <footer>
+    <p class="footer-text">thebudget &copy;</p>
+  </footer>
 
 </head>
 <body>

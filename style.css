@@ -5,13 +5,16 @@
   --header-grey:#888888;
   --medium-grey:#666;
   --light-grey:#F0F0F0;
+  --calculator-line-grey:#e0e0e0;
   --site-white:#fff;
   --site-black:#222;
+  --site-light-black:#444;
   --light-blue:#8CAFD3;
   --facebook-blue:#3b5998;
   --pinterest-red:#cb2027;
   --email-blue:#1cd5bd;
   --calculator-light-blue:#46e1dd;
+  --calculator-dark-blue:#00a6a4;
 }
 
 *{
@@ -219,6 +222,16 @@ header{
   margin: 3rem auto 0 auto;
 }
 
+/*Calculator form*/
+#calculator-form{
+  border: solid var(--light-grey) 1px;
+  border-top: solid var(--calculator-light-blue) 8px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px;
+  padding:2rem 2rem 3rem 2rem;
+  margin-bottom: 9rem;
+}
+
 .calculator-header{
   display: flex;
   align-items: center;
@@ -226,11 +239,11 @@ header{
 
 /*Icon in the calculator header*/
 .calculator-header i{
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin-right: .65rem;
   background-color: var(--calculator-light-blue);
   color: var(--site-white);
-  padding: 1.2rem 1.4rem;
+  padding: .8rem 1.1rem;
   border-radius: 50%;
 }
 
@@ -239,11 +252,21 @@ header{
   font-weight: bold;
 }
 
+/*underline on the calculator title*/
+.income-area::before{
+  content: "";
+  display: block ;
+  width: 94%;
+  border-bottom:solid var(--medium-grey) thin;
+  margin: .8rem 0 2rem 0;
+}
+
 /*Income area on the calculator*/
 .income-area{
   display: flex;
   flex-direction: column;
-  margin: 2rem 0;
+  
+ 
 }
 
 .income-area label{
@@ -261,4 +284,59 @@ header{
   padding: .75rem 0 .75rem .5rem;
   font-size: 1.3rem;
 }
+
+.calculator-output-div{
+
+}
+
+/*Header above outputs on the calculator */
+.calculator-output-header{
+  margin: 1.5rem 0;
+}
+
+/*output box*/
+.output-box{
+  margin-bottom: 2rem;
+}
+
+/*Labels for each output (necessities, wants, savings)*/
+.output-box-label{
+  color: var(--site-light-black);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/*figure output for necessities,wants, & savings*/
+.calculator-output{
+  color:var(--calculator-dark-blue);
+  font-size: 1.5rem;
+}
+
+/*Calculator buttons*/
+.calculator-buttons{
+  margin-top: 3rem;
+}
+
+#submit-button,
+#reset-button{
+  padding: .8rem 1.4rem;
+  border-radius: 4px;
+  border: solid var(--calculator-dark-blue) thin;
+  color: var(--calculator-dark-blue);
+  font-size: 1.1rem;
+}
+
+#submit-button{
+  margin-right: .4rem;
+}
+
+/*footer*/
+footer{
+  background-color: var(--calculator-dark-blue);
+  color: var(--site-white);
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.3rem;
+}
+
 
