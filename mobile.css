@@ -1,0 +1,214 @@
+@media(max-width:1250px){
+  /*Icon in the calculator header*/
+  .calculator-header i{
+    font-size: 1.2rem;
+    padding: .7rem .9rem;
+  }
+
+  .calculator-header-title{
+    font-size: 2rem;
+  }
+
+}
+
+@media(max-width:1020px){
+    /*Container for the page*/
+    .page-container{
+      max-width: 95%;
+    }
+  
+    .page-subtitle{
+      width: 75%;
+      font-size: 1.4rem;
+      margin-top: .65rem;
+    }
+
+    /*image container below the table of contents*/
+    .page-image{
+      height: 75vh;
+      max-width: 85%;
+    }
+  
+    /*Blog container holding all blog content*/
+    #blog-container{
+      margin: 2rem auto 0 auto;
+      max-width: 85%;
+    }
+  
+    /*Calculator section*/
+    #calculator{
+      max-width: 85%;
+      margin: 3rem auto 0 auto;
+    }
+
+}
+
+@media(max-width:705px){
+
+  .calculator-header-title{
+    font-size: 1.5rem;
+  }
+    
+}
+
+@media(max-width:570px){
+
+  .calculator-header-title{
+    font-size: 1.1rem;
+  }
+
+  /*image container below the table of contents*/
+  .page-image{
+    height: 65vh;
+    max-width: 85%;
+  }
+
+  /*Labels for each output (necessities, wants, savings)*/
+  .output-box-label{
+    font-size: 1rem;
+  }
+
+  /*figure output for necessities,wants, & savings*/
+  .calculator-output{
+    font-size: 1.3rem;
+  }
+
+  #submit-button,
+  #clear-button{
+    padding: .4rem 1rem;
+    font-size: .95rem;
+  }
+    
+}
+
+@media(max-width:415px){
+
+  .page-title{
+    font-size: 1.8rem;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .page-title span{
+    font-size: 1.75rem;
+    position: relative;
+    bottom: .1rem;
+  }
+  
+  .page-subtitle{
+    width: 85%;
+    margin: 1rem auto 0 auto;
+    font-size: 1.1rem;
+  }
+
+  .page-social-icons i{
+    font-size: 1.2rem;
+    padding: .8rem 1rem;
+  }
+
+  /*image container below the table of contents*/
+  .page-image{
+    height: 55vh;
+  }
+
+  /*Calculator form*/
+  #calculator-form{
+    padding:2rem .4rem 3rem 1rem;
+  }
+
+  .calculator-header-title{
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  /*Icon in the calculator header*/
+  .calculator-header i{
+    font-size: 1rem;
+    padding: .4rem .6rem;
+  }
+
+  .income-area input{ 
+    width: 65%;
+    padding: .65rem 0 .65rem .5rem;
+    font-size: 1.1rem;
+    margin-top: .7rem;
+  }
+
+  .calculator-buttons{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #submit-button,
+  #clear-button{
+    width: 55%;
+    padding: .65rem 0;
+    font-size: .75rem;
+  }
+
+  #submit-button{
+    margin-bottom: .7rem;
+  }
+    
+}
+
+@media(max-width:320px){
+  .page-title{
+    width: 80%;
+  }
+
+  .page-subtitle{
+    width: 85%;
+    margin: 1rem auto 0 auto;
+    font-size: .9rem;
+  }
+
+  .page-social-icons i{
+    font-size: 1rem;
+    padding: .7rem .9rem;
+  }
+
+  .page-image{
+    height: 50vh;
+  }
+
+  .blog-author,
+  .blog-date{
+    font-size: .9rem;
+  }
+
+  .blog-content{
+    font-size: .8rem;
+  }
+
+  .calculator-header-title{
+    font-size: .85rem;
+  }
+  
+
+  .income-area label{
+    font-size: .8rem;
+  }
+
+  /*Header above outputs on the calculator */
+  .calculator-output-header{
+    font-size: .95rem ;
+  }
+
+  .income-area input{ 
+    width: 65%;
+    padding: .6rem 0 .6rem .5rem;
+    font-size: .95rem;
+  }
+
+  /*Labels for each output (necessities, wants, savings)*/
+  .output-box-label{
+    font-size: 1rem;
+  }
+
+  /*figure output for necessities,wants, & savings*/
+  .calculator-output{
+    font-size: 1.2rem;
+  }
+  
+}
